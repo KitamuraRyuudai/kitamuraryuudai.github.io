@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>コスモテクト - 詳細</title>
+    <title>V～言葉の館からの脱出～ - 詳細</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -59,24 +59,28 @@
 <body>
 
 <header>
-    <h1>コスモテクト</h1>
+    <h1>V～言葉の館からの脱出～</h1>
 </header>
 
 <div class="container">
     
-    <img src="game1_large.jpg" alt="ゲーム画像" class="game-image">
+    <!-- ゲームプレイ動画 -->
+    <video class="game-video" controls>
+        <source src="Conversation.mp4" type="video/mp4">
+        お使いのブラウザは動画タグをサポートしていません。
+    </video>
 
     <div class="section">
         <h2>概要</h2>
-        <p>このゲームは2Dシューティングゲームで、攻撃と自分の機体を左右上下に動かし、ボスを倒すことを目指す作品です。シンプルな操作性と発射弾数が限られていることが特徴です。</p>
+        <p>このゲームは3D謎解きゲームで、五十音とアイテムを駆使して謎を解き館から脱出するゲームです。</p>
     </div>
 
     <div class="section">
         <h2>使用技術</h2>
         <ul>
-            <li>Unity 2023.1.15f1</li>
+            <li>Unity 2023.2.20f1</li>
             <li>C#</li>
-            <li>UnityAsset（2D素材）</li>
+            <li>UnityAsset（3D素材）</li>
             <li>UnityAsset（音声編集）</li>
         </ul>
     </div>
@@ -84,8 +88,7 @@
     <div class="section">
         <h2>開発のポイント</h2>
         <p>
-            敵の出現パターンや、攻撃方法を人ステージに３つずつ用意し、自分が攻撃できる数が限られているように設計しました。また競争心を持ってもらいたいと考えたため、スコア表示を常に表示し、最高スコアを出すためにゲームする欲を引き出す設計にしました。
-            「工大際」というイベントで参加者に遊んでもらうため、１ステージを５分程度で遊びきれるようにギミックを盛り込みました。同じ敵が出てきても攻撃方法が違うことや、敵を撃ち倒すと一定確率でドロップ品が落ちること、ドロップ品を拾うことで撃てる弾数が増えるの３つが主なギミックになります。
+            プレイヤーの移動をWASDキーで操作、アイテムを拾うときはFキー、拾ったアイテムを見るときはEキーを押すとインベントリが画面上に出てくるようにしました。またインベントリには拾ったアイテムにカーソルを合わせてクリックすることでアイテムの説明を見ることができます。
         </p>
     </div>
     <a href="index.html" class="back-link">← ポートフォリオ一覧へ戻る</a>
