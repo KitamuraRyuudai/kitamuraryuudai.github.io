@@ -26,6 +26,13 @@
             border-radius: 10px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        .game-video {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
         .game-image {
             width: 100%;
             height: auto;
@@ -57,47 +64,40 @@
     </style>
 </head>
 <body>
-
 <header>
     <h1>V～言葉の館からの脱出～</h1>
 </header>
-
 <div class="container">
     
     <!-- ゲームプレイ動画 -->
     <video class="game-video" controls>
-        <source src="Conversation.mp4" type="video/mp4">
+        <source src="gameplay.mp4" type="video/mp4">
         お使いのブラウザは動画タグをサポートしていません。
     </video>
 
     <div class="section">
         <h2>概要</h2>
-        <p>このゲームは3D謎解きゲームで、五十音とアイテムを駆使して謎を解き館から脱出するゲームです。</p>
+        <p>このゲームは3D謎解きゲームです。五十音とアイテムを駆使して謎を解き館から脱出するゲームです。</p>
     </div>
-
     <div class="section">
         <h2>使用技術</h2>
         <ul>
             <li>Unity 2023.2.20f1</li>
             <li>C#</li>
-            <li>UnityAsset（3D素材）</li>
-            <li>UnityAsset（音声編集）</li>
+            <li>UnityAsset(3D素材)</li>
+            <li>UnityAsset(音声編集)</li>
         </ul>
     </div>
-
     <div class="section">
         <h2>開発のポイント</h2>
         <p>
-            プレイヤーの移動をWASDキーで操作、アイテムを拾うときはFキー、拾ったアイテムを見るときはEキーを押すとインベントリが画面上に出てくるようにしました。またインベントリには拾ったアイテムにカーソルを合わせてクリックすることでアイテムの説明を見ることができます。
+            プレイヤーの移動をWASDキーで操作、アイテムを拾うときはFキー、拾ったアイテムを見るときはEキーを押すことでインベントリが画面上に出るようにしました。また、インベントリには拾ったアイテムにカーソルを合わせてクリックすることでアイテムの説明を見ることができます。
         </p>
     </div>
     <a href="index.html" class="back-link">← ポートフォリオ一覧へ戻る</a>
-
 </div>
-
 <footer>
     © 2025 北村琉大
 </footer>
-
 </body>
 </html>
