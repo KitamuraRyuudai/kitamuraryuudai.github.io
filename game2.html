@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>コスモテクト - 詳細</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .game-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        a.back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>コスモテクト</h1>
+</header>
+
+<div class="container">
+    
+    <img src="game1_large.jpg" alt="ゲーム画像" class="game-image">
+
+    <div class="section">
+        <h2>概要</h2>
+        <p>このゲームは2Dシューティングゲームで、攻撃と自分の機体を左右上下に動かし、ボスを倒すことを目指す作品です。シンプルな操作性と発射弾数が限られていることが特徴です。</p>
+    </div>
+
+    <div class="section">
+        <h2>使用技術</h2>
+        <ul>
+            <li>Unity 2023.1.15f1</li>
+            <li>C#</li>
+            <li>UnityAsset（2D素材）</li>
+            <li>UnityAsset（音声編集）</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>開発のポイント</h2>
+        <p>
+            敵の出現パターンや、攻撃方法を人ステージに３つずつ用意し、自分が攻撃できる数が限られているように設計しました。また競争心を持ってもらいたいと考えたため、スコア表示を常に表示し、最高スコアを出すためにゲームする欲を引き出す設計にしました。
+            「工大際」というイベントで参加者に遊んでもらうため、１ステージを５分程度で遊びきれるようにギミックを盛り込みました。同じ敵が出てきても攻撃方法が違うことや、敵を撃ち倒すと一定確率でドロップ品が落ちること、ドロップ品を拾うことで撃てる弾数が増えるの３つが主なギミックになります。
+        </p>
+    </div>
+    <a href="index.html" class="back-link">← ポートフォリオ一覧へ戻る</a>
+
+</div>
+
+<footer>
+    © 2025 北村琉大
+</footer>
+
+</body>
+</html>
